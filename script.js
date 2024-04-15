@@ -96,8 +96,9 @@ const registerGrades = () => {
     
 
     eachDivStudentResult.style.width = '20%'
+    eachDivStudentResult.style.padding = '1rem'
     eachDivStudentResult.style.height = '130px'
-    eachDivStudentResult.style.backgroundColor = "grey"
+    eachDivStudentResult.style.backgroundColor = "var(--green-1)"
     eachDivStudentResult.style.borderRadius = '10px'
     eachDivStudentResult.innerHTML = `<b>Aluno(a): </b>${studentName}
     <b>Média: </b> ${averageGrade}`
